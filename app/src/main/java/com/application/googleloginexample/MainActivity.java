@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity
                 new ResultCallback<Status>() {
                     @Override
                     public void onResult(@NonNull Status status) {
-                        Log.e("Google sign out", "sada" + status.getStatus());
+                        Log.e("Google Login", "Google oturumu kapatıldı. " +  status.getStatus());
                     }
                 });
     }
